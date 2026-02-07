@@ -1,24 +1,24 @@
 function Storyopen()
 {
     return(
-           <div class="storyopen">
-                <div class="progress">
-                    <div class="bar"></div>
+           <div className="storyopen">
+                <div className="progress">
+                    <div className="bar"></div>
                 </div>
 
-                <div class="close">X</div>
+                <div className="close">X</div>
 
 
-                <img id="storyimg"/>
+                <img id="storyimg" alt="story"/>
 
            
-                <div class="storycmnt">
+                <div className="storycmnt">
                     <textarea id="cmnt" placeholder="Write a caption...."></textarea>
-                    <p class="hrt">♡</p>
+                    <p className="hrt">♡</p>
 
 
                     
-                    <div class="bottom">
+                    <div className="bottom">
 
 
 
@@ -36,3 +36,4 @@ function Storyopen()
 }
 
 export default Storyopen;
+
