@@ -6,7 +6,7 @@ function Story({image,name})
         <div className="story">
 <div className="round">
 
-    <img src={image} alt={name}/>
+    <img src={image} alt="story image"/>
 </div>
 
 <p>{name}</p>
